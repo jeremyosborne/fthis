@@ -1,0 +1,27 @@
+{
+  "name": "fthis",
+  "version": "0.0.1",
+  "description": "generate common files (like index.html)",
+  "main": "fthis.js",
+  "bin": "fthis.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jeremyosborne/fthis.git"
+  },
+  "keywords": [
+    "file",
+    "generation",
+    "generator",
+    "euphemism"
+  ],
+  "author": "Jeremy Osborne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyosborne/fthis/issues"
+  },
+  "homepage": "https://github.com/jeremyosborne/fthis#readme",
+  "preferGlobal": true,
+  "dependencies": {
+    "minimist": "^1.1.1"
+  }
+}
