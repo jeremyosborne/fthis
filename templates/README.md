@@ -1,7 +1,7 @@
 # Project Name
 
-TODO: Update license with your name.
-
+TODO: Update MIT license with year and your name, or else change it.
+TODO: Update the rest of the file.
 
 
 ## Table of Contents
@@ -17,7 +17,7 @@ TODO: Update license with your name.
 
 ## License
 
-Copyright (c) {{year}} MY NAME THE AUTHOR
+Copyright (c) {{year}} {{author}}
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation

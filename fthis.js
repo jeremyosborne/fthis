@@ -52,7 +52,11 @@ if (argv.h) {
     var outFile = argv._[0] || path.join(process.cwd(), templateName);
     try {
         var contents = fs.readFileSync(path.join(SCRIPT_DIR, "templates", templateName), "utf-8");
+        if (fs.existsSync(outFile)) {
+            throw new Error(outFile + " already exists, will not overwrite.");
+        }
         fs.writeFileSync(outFile, contents);
+        console.log("fthis file output ->", outFile);
     } catch(e) {
         console.error("Error processing command:", e.message);
     }
